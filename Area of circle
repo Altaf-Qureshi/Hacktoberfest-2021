@@ -1,0 +1,16 @@
+// Write a function to calculate area of circle.
+#include<iostream>
+using namespace std;
+int area_of_cicle(int r)
+{
+    r = 3.14 * (r * r);
+    return r;
+}
+int main()
+{
+    int r, area;
+    cout << "Enter area for cicle: ";
+    cin >> r;
+    area = area_of_cicle(r);
+    cout << area;
+}
